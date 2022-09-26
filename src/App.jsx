@@ -17,6 +17,7 @@ import Day from "./components/Day";
 import Button from "./components/Button";
 import ControlButton from "./components/ControlButton";
 import ThemeButton from "./components/ThemeButton";
+import Signature from "./components/Signature";
 import { tasbeh } from "./data/tasbeh";
 
 import { motion, useAnimation } from "framer-motion";
@@ -478,6 +479,7 @@ function App() {
           <div className="basis-[5%]"></div>
         </div>
       </div>
+      <Signature>developed by</Signature>
     </div>
   );
 }
