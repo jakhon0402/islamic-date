@@ -190,19 +190,19 @@ function App() {
   };
 
   return (
-    <div className=" w-screen h-screen realtive">
+    <div className="fixed w-screen h-screen realtive">
       <div className="flex w-screen h-screen  justify-center items-center">
         <div
           className={
             selectTheme1 && selectTheme2
-              ? "absolute -z-10 w-screen h-screen bg-[url('./assets/sky_night.jpg')] grayscale bg-cover"
+              ? "absolute -z-10 w-screen h-screen bg-[url('./assets/sky_night.svg')] grayscale bg-cover"
               : selectTheme1 && selectTheme3
-              ? "absolute -z-10 w-screen h-screen bg-[url('./assets/sky_stars.jpg')] grayscale bg-cover"
+              ? "absolute -z-10 w-screen h-screen bg-[url('./assets/sky_stars.svg')] grayscale bg-cover"
               : selectTheme1
               ? "absolute -z-10 w-screen h-screen bg-gradient-to-b from-[#111] via-[#222] to-[#111] grayscale bg-cover"
               : selectTheme2
-              ? "absolute -z-10 w-screen h-screen bg-[url('./assets/sky_night.jpg')] bg-cover"
-              : "absolute -z-10 w-screen h-screen bg-[url('./assets/sky_stars.jpg')] bg-cover"
+              ? "absolute -z-10 w-screen h-screen bg-[url('./assets/sky_night.svg')] bg-cover"
+              : "absolute -z-10 w-screen h-screen bg-[url('./assets/sky_stars.svg')] bg-cover"
           }
         ></div>
         <div className="w-screen h-screen fixed">
