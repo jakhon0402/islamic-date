@@ -11,15 +11,15 @@ export default function ThemeButton({ ...props }) {
     },
     {
       selected:
-        "w-[40px] h-[40px] text-xl rounded-full border-[3px] border-green-500 bg-[url('./assets/night.png')] bg-cover drop-shadow-[0_5px_25px_rgba(0,0,0,0.5)]",
+        "w-[40px] h-[40px] text-xl rounded-full border-[3px] border-green-500 bg-[url('./assets/night.svg')] bg-cover drop-shadow-[0_5px_25px_rgba(0,0,0,0.5)]",
       unSelected:
-        "w-[40px] h-[40px] text-xl rounded-full border-[3px] border-neutral-200 bg-[url('./assets/night.png')] bg-cover drop-shadow-[0_5px_25px_rgba(0,0,0,0.5)]",
+        "w-[40px] h-[40px] text-xl rounded-full border-[3px] border-neutral-200 bg-[url('./assets/night.svg')] bg-cover drop-shadow-[0_5px_25px_rgba(0,0,0,0.5)]",
     },
     {
       selected:
-        "w-[40px] h-[40px] text-xl rounded-full border-[3px] border-green-500 bg-[url('./assets/cosmos.png')] bg-cover drop-shadow-[0_5px_25px_rgba(0,0,0,0.5)]",
+        "w-[40px] h-[40px] text-xl rounded-full border-[3px] border-green-500 bg-[url('./assets/cosmos.svg')] bg-cover drop-shadow-[0_5px_25px_rgba(0,0,0,0.5)]",
       unSelected:
-        "w-[40px] h-[40px] text-xl rounded-full border-[3px] border-neutral-200 bg-[url('./assets/cosmos.png')] bg-cover drop-shadow-[0_5px_25px_rgba(0,0,0,0.5)]",
+        "w-[40px] h-[40px] text-xl rounded-full border-[3px] border-neutral-200 bg-[url('./assets/cosmos.svg')] bg-cover drop-shadow-[0_5px_25px_rgba(0,0,0,0.5)]",
     },
   ];
 
